@@ -10,11 +10,11 @@ c.height = 700
 const backgrounds = [
   './assets/bg-0.png',
   './assets/bg-1.png',
-  './assets/bg-2.png',
-  './assets/bg-3.png',
-  './assets/bg-4.png',
+  './assets/bg-2-pres.png',
+  './assets/bg-3-pres.png',
+  './assets/bg-4-pres.png',
   './assets/bg-5.png',
-  './assets/bg-6-y.png'
+  './assets/bg-6-pres.png'
 ]
 
 var img = new Image()
