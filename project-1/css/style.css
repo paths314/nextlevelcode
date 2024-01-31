@@ -1,0 +1,30 @@
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+  
+body {
+    background: rgb(215, 215, 215);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #EEE;
+}
+
+canvas {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0px solid #383838;
+}
