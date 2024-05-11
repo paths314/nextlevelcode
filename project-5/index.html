@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weaving Abstraction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="logo-container">
+    <div id="grid-container" style="mask-image: url('assets/logo.svg'); -webkit-mask-image: url('assets/logo.svg');">
+    </div>
+</div>
+
+<div id="questions">
+    <p>Which word describes you best?</p>
+    <select id="color">
+        <option value="#FF6324">Energetic</option>
+        <option value="#70902D">Calm</option>
+        <option value="#F8E4CC">Reliable</option>
+        <option value="#61543D">Grounded</option>
+    </select>
+
+    <p>What stands out to you in art?</p>
+    <select id="lineStyle">
+        <option value="solid">Shape and Form</option>
+        <option value="dashed">Detail and Pattern</option>
+    </select>
+
+    <p>Portraits or landscapes?</p>
+    <select id="orientation">
+        <option value="vertical">Portraits</option>
+        <option value="horizontal">Landscapes</option>
+    </select>
+
+    <button id="submitButton">Submit</button>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
