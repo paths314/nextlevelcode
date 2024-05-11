@@ -259,7 +259,7 @@ document.addEventListener("click", function(e) {
     currentImageIndex = (currentImageIndex + 1) % imagesrcs.length;
     canvas.style.backgroundImage = `url('${imagesrcs[currentImageIndex]}')`;
 
-  }, 13000); //3000
+  }, 3000); //3000
 })
 
 // Resize listener to adjust canvas size dynamically
