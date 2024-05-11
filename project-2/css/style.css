@@ -1,0 +1,40 @@
+* body, html { 
+    margin: 0; 
+    padding: 0; 
+    /* overflow: hidden;  */
+    font-family: "Manrope", sans-serif;
+    cursor: none;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p, h3 {
+    padding: 0em 15em 0em 0em;   
+}
+
+canvas { 
+    display: block; 
+    /* background-color: black; */
+    background-position: center;
+    background-size: cover;
+    background-image: url('../assets/cover.png');
+    cursor: none;
+    height: 70vh;
+    width: 100%;
+}
+
+#article {
+    background-color: white;
+    height: 100px;
+    /* width: 100vw; */
+    padding: 3em 10em 60rem 7em;
+}
+
+#gavel {
+    width: 120px;
+    height: auto;
+    position:absolute;
+    /* display: none; */
+}   
